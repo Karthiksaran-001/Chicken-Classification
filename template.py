@@ -35,6 +35,7 @@ ListOfFiles =[
     'setup.py',
     'requirements.txt',
     'research/test.ipynb',
+    "templates/index.html",
 ]
 
 for file_path in ListOfFiles:
