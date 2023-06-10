@@ -1,0 +1,10 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_directory: artifacts/data_ingestion
+  local_data_file: artifacts/data_ingestion/DataSet.zip
+  unzip_dir: artifacts/data_ingestion
+  bucket_name: cnndataset1
+  bucket_file_name: TomJerryData.zip
+
+

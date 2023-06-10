@@ -9,14 +9,9 @@ Date : 2023 - 06 -04
 import os
 import logging
 from pathlib import Path
-from datetime import datetime
 
-ProjectName =  'CNNClassifier'
-LogFile = str(datetime.now())
-LogFile = str(LogFile.split(".")[0])
-LogFile = str(LogFile.split(" ")[0].replace("-" , "_"))
 
-logging.basicConfig(filename= f"Logs/{LogFile}_{ProjectName}.log",level=logging.INFO , format='[%(asctime)s]:  %(message)s: ')
+logging.basicConfig(level=logging.INFO , format='[%(asctime)s]:  %(message)s: ')
 
 
 ListOfFiles =[
