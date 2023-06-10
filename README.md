@@ -26,4 +26,4 @@ pip install -r requirements.txt
 
 ## Get the Dataset
 
-<p?>Dataset is zipped and stored in AWS S3 Bucket download the file and extract the file, AWS credentials are stored in Environment Variable </p>
+<p>Dataset is zipped and stored in AWS S3 Bucket download the file and extract the file, AWS credentials are stored in Environment Variable </p>
