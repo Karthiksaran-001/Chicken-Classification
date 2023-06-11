@@ -41,5 +41,3 @@ python main.py
 ```
 python main.py
 ```
-=======
->>>>>>> 8e52e566b7482abb216f76c22f7e1d71f9a7d17a
