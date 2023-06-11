@@ -49,3 +49,10 @@ python main.py
 ```
 python main.py
 ```
+
+## Stage 04: Evaluation Pipeline
+<p> Once Model is Trained check the model performance it will evaluate the model and save the result in <b> scores.json</b> </p>
+
+```
+python main.py
+```
