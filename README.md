@@ -41,3 +41,11 @@ python main.py
 ```
 python main.py
 ```
+
+## Stage 03: Training Pipeline
+<p>For Training we just use 1 epoch so the accuracy is not upto the marks if you want good accuracy add the epochs to 100 or 500</p>
+<p>This is for just training</p>
+
+```
+python main.py
+```
