@@ -9,6 +9,8 @@ This is one of the famous cartoon shows, that we would have never missed watchin
 ## Dataset Source :
 https://www.kaggle.com/datasets/balabaskar/tom-and-jerry-image-classification
 
+## Steps:
+
 ### Create and activate  new Python Environment:
 ```
 conda create -p venv python==3.8 -y
@@ -37,6 +39,21 @@ python main.py
 ## Stage 02: Prepare Base Model
 <p> For this image classification, we use transfer learning approach which is VGG16 first we download the model from keras and update the base weight for our use case and save the model
 </p>
+
+```
+python main.py
+```
+
+## Stage 03: Training Pipeline
+<p>For Training we just use 3 epoch so the accuracy is not upto the marks if you want good accuracy add the epochs to 100 or 500</p>
+<p>This is for just training</p>
+
+```
+python main.py
+```
+
+## Stage 04: Evaluation Pipeline
+<p> Once Model is Trained check the model performance it will evaluate the model and save the result in <b> scores.json</b> </p>
 
 ```
 python main.py
