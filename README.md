@@ -26,7 +26,6 @@ pip install -r requirements.txt
 
 ## Stage 01: Data Ingestion
 
-<<<<<<< HEAD
 <p>Dataset is zipped and stored in AWS S3 Bucket download the file and extract the file.</p>
 <p>AWS credentials are stored in Environment Variable </p>
 <p>Data Ingestion Is Created and Used in Pipeline to run </p>
@@ -34,6 +33,7 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+<<<<<<< HEAD
 
 ## Stage 02: Prepare Base Model
 <p> For this image classification, we use transfer learning approach which is VGG16 first we download the model from keras and update the base weight for our use case and save the model
@@ -41,3 +41,5 @@ python main.py
 ```
 python main.py
 ```
+=======
+>>>>>>> 8e52e566b7482abb216f76c22f7e1d71f9a7d17a
