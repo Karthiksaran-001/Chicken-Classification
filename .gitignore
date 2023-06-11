@@ -160,6 +160,5 @@ cython_debug/
 #.idea/
 
 # Data
+artifacts/*
 
-data/
-DataSet.zip
