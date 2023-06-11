@@ -9,6 +9,8 @@ This is one of the famous cartoon shows, that we would have never missed watchin
 ## Dataset Source :
 https://www.kaggle.com/datasets/balabaskar/tom-and-jerry-image-classification
 
+## Steps:
+
 ### Create and activate  new Python Environment:
 ```
 conda create -p venv python==3.8 -y
