@@ -24,11 +24,16 @@ conda activate venv/
 pip install -r requirements.txt
 ```
 
-## Get the Dataset
+## Stage 01: Data Ingestion
 
+<<<<<<< HEAD
 <p>Dataset is zipped and stored in AWS S3 Bucket download the file and extract the file.</p>
 <p>AWS credentials are stored in Environment Variable </p>
 <p>Data Ingestion Is Created and Used in Pipeline to run </p>
 ```
 python main.py
 ```
+=======
+<p>Dataset is zipped and stored in AWS S3,download the file and extract</p>
+<p>Note: AWS credentials are stored in Environment Variable </p>
+>>>>>>> 7a0915414b663d9cb1cce5f255b1cd883127f27b
