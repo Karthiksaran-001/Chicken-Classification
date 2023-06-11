@@ -37,6 +37,7 @@ python main.py
 ## Stage 02: Prepare Base Model
 <p> For this image classification, we use transfer learning approach which is VGG16 first we download the model from keras and update the base weight for our use case and save the model
 </p>
+
 ```
 python main.py
 ```
