@@ -161,4 +161,5 @@ cython_debug/
 
 # Data
 artifacts/*
+*.jpg
 

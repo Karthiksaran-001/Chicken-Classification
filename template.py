@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 logging.basicConfig(level=logging.INFO , format='[%(asctime)s]:  %(message)s: ')
-
+ProjectName = "CNNClassifier"
 
 ListOfFiles =[
     ".github/workflows/.gitkeep",
@@ -28,6 +28,8 @@ ListOfFiles =[
     "params.yaml",
     "README.md",
     'setup.py',
+    'app.py',
+    'main.py',
     'requirements.txt',
     'research/test.ipynb',
     "templates/index.html",
