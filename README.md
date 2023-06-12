@@ -77,3 +77,23 @@ dvc repro
 dvc dag
 ```
 <p>The Logs are stored in the <b>dvc.lock</b> file </p>
+
+## Flask App Creation:
+
+<p>To Check the Flask App run the below command in the terminal</p>
+
+```
+python app.py
+```
+
+<p> Check the Browser with localhost and the port is 8080 </p>
+
+```
+http://127.0.0.1:8080
+```
+
+<p> To Train the model using Flask</p>
+
+```
+http://127.0.0.1:8080/train
+```
