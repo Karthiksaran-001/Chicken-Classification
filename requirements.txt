@@ -14,7 +14,6 @@ Flask-cors
 types-pyYaml
 notebook
 pathlib
-pyunpack
 boto3
 
 
