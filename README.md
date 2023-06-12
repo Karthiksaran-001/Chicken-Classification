@@ -71,3 +71,9 @@ dvc init
 ```
 dvc repro
 ```
+<p> To Track the Model Pipeline </p>
+
+```
+dvc dag
+```
+<p>The Logs are stored in the <b>dvc.lock</b> file </p>
