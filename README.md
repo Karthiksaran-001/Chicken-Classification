@@ -58,3 +58,22 @@ python main.py
 ```
 python main.py
 ```
+
+## Initializing DVC
+<p> DVC Stands for Data Version Control , it help to track our model and run the stage wise if the pipeline is already run it skip and run the remining pipeline</p>
+<p>To Use DVC we need any version control here we use GIT , To initilalize DVC </p>
+
+```
+dvc init
+```
+<p>To Run DVC </p>
+
+```
+dvc repro
+```
+<p> To Track the Model Pipeline </p>
+
+```
+dvc dag
+```
+<p>The Logs are stored in the <b>dvc.lock</b> file </p>
