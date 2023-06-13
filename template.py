@@ -31,6 +31,7 @@ ListOfFiles =[
     'app.py',
     'main.py',
     'requirements.txt',
+    'Dockerfile',
     'research/test.ipynb',
     "templates/index.html",
 ]
