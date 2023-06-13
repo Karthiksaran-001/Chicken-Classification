@@ -98,10 +98,13 @@ http://127.0.0.1:8080
 http://127.0.0.1:8080/train
 ```
 
-AWS-CICD-Deployment-with-Github-Actions
+## AWS-CICD-Deployment-with-Github-Actions
+
+
 1. Login to AWS console.
 2. Create IAM user for deployment
-#with specific access
+
+## with specific access
 
 1. EC2 access : It is virtual machine
 
@@ -110,6 +113,7 @@ AWS-CICD-Deployment-with-Github-Actions
 
 #Description: About the deployment
 
+```
 1. Build docker image of the source code
 
 2. Push your docker image to ECR
@@ -119,11 +123,14 @@ AWS-CICD-Deployment-with-Github-Actions
 4. Pull Your image from ECR in EC2
 
 5. Lauch your docker image in EC2
+```
 
-#Policy:
+## Policy:
 
+```
 1. AmazonEC2ContainerRegistryFullAccess
 
 2. AmazonEC2FullAccess
 3. Create ECR repo to store/save docker image
 - Save the URI: 972510255763.dkr.ecr.us-east-1.amazonaws.com/tomjerry
+```
